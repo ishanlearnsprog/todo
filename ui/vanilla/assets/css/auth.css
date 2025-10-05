@@ -1,0 +1,56 @@
+/* AUTH */
+
+.auth main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth form {
+    padding: 1.5rem;
+    max-width: 40rem;
+}
+
+.auth input {
+    width: 100%;
+    border: none;
+    border-radius: 3rem;
+    margin-bottom: 2.4rem;
+    padding: 1.2rem 2.4rem 1.2rem;
+    font-family: Roboto, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--text-primary);
+    background-color: var(--surface-primary);
+}
+
+.auth button {
+    outline: none;
+    border: none;
+    border-radius: 2.4rem;
+    padding: 1.2rem 2.4rem 1.2rem;
+    width: 100%;
+    font-family: RobotoCondensed, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--accent-red);
+    background-color: var(--surface-primary);
+    cursor: pointer;
+}
+
+.auth button:hover {
+    color: var(--surface-primary);
+    background-color: var(--accent-red);
+}
+
+.auth .mode-switch {
+    font-family: Roboto, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--text-primary);
+}
+
+.auth .link {
+    text-decoration: underline;
+}
